@@ -1,1 +1,13 @@
-# TMP
+cities:
+  Unclaimed:
+    desc: ''
+    players:
+    enemy:
+    enemyWish:
+    ally:
+    allyWish:
+    claim:
+    nation: 0
+    
+nations:
+  

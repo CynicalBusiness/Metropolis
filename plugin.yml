@@ -1,1 +1,29 @@
-# TMP
+name: Metropolis
+main: net.mayateck.Metropolis
+version: 1.0_R01
+
+commands:
+   city:
+      description: Metropolis city commands.
+      usage: /register [username] [password]
+      permission: mp.city
+      permission-message: This server does not allow a shuttle registry at your current ranking.
+   mp:
+      description: Metropolis Administrative Commands
+      usage: /mp [sub-command] <parameters>
+      permission: mp.admin
+      permission-message: You do not have permission to access the DataShuttle core commands.
+      
+permissions:
+   mp.*:
+      description: Grants access to all Metropolis commands.
+      children:
+         shuttle.city
+         shuttle.admin
+   mp.city.*:
+      description: Grants access to all city commands for Metropolis.
+      default: true
+   mp.admin.*:
+      description: Grants access to all admin commands for Metropolis.
+      default: op
+      children:

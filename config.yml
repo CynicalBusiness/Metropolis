@@ -1,1 +1,40 @@
-# TMP
+#---# Metropolis Configuration File #---#
+#       Configuration version 1.0       #
+
+city:
+  chat:
+  
+    # Should the city name be displayed in the chat?
+    disp_city_name: true
+  misc:
+  
+display:
+  misc:
+    
+    # Default city name and description. Used in boundary displays and chat.
+    def_name: 'Unnamed City'
+    def_desc: 'No description given.' 
+    
+    # Rank tags. Two character max. Set to '' to disable.
+    tag_mayor: '=='
+    tag_officer: '='
+    tag_landowner: '-'
+    tag_member: ''
+    
+  color:
+    # City name display colors.
+    # These actually don't work at the moment, just showing the defaults for later use.
+    color_standard: WHITE
+    color_hostile: RED
+    color_ally: GREEN
+    color_admin: GOLD
+    color_battle: DARK_RED
+    
+mechanics:
+  gameplay:
+    
+  physics:
+  
+  misc:
+  
+# END OF FILE.
