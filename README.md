@@ -17,6 +17,7 @@ TL-DR: Put JAR in the plugins folder and restart.
   - *cities.yml*: Storage file for data behind the cities.
   - *players.yml*: Storage file for data behind each player.
   - *warps.yml*: Storage file for city-based warp data.
+  - *counties.yml*: Storage file for data behind each county.
 	
 -
 
