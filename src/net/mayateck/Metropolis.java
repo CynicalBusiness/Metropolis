@@ -29,7 +29,7 @@ public final class Metropolis extends JavaPlugin{
 			log.info("File 'config.yml' not found. Creating one...");
 			this.saveConfig();
 		}
-		
+		log.info("2 of 2 | Preloading data...");
 		
 		log.info("Loading completed.");
 	}
