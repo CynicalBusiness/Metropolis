@@ -35,6 +35,26 @@ mechanics:
     
   physics:
   
+  econ:
+    # Should Metropolis try to integrate with an economy plugin (BOSEconomy, iConomy, EssentialsEco, FairTrade, etc.)?
+    enable_econ: false
+	
+    # If economy is enabled, how much should each city command cost?
+    city_create: 20.0
+    city_claim: 5.0
+    city_claim_multiplier: 0.5
+    city_announce: 0.0
+    city_create_warp: 2.0
+    city_warp: 0.0
+	
+    # When an area is unclaimed, how much should be refunded? (0.0 to 1.0)
+    city_claim_refund_percent: 0.75
+	
+    # If economy is enabled, how much should each county command cost?
+    county_create: 50.0
+    county_announce: 0.0
+    county_create_warp: 2.0
+    county_warp: 0.0
   misc:
   
 # END OF FILE.
